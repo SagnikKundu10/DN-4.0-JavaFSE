@@ -1,0 +1,28 @@
+Discuss how you can optimize these operations?
+Ans:
+Ensure productId is unique to prevent overwrites.
+
+If sorting or range queries are needed, consider using TreeMap instead of HashMap (which gives O(log n) operations with sorted keys).
+
+Add indexing or separate maps by categories for faster filtered searches if required later.
+
+2)Explain why data structures and algorithms are essential in handling large inventories.
+Ans:
+Efficient handling of large inventories in a warehouse system is critical for real-time operations like:
+Adding, updating, or removing products
+
+Searching for a product quickly
+
+Generating reports and summaries
+
+Without good data structures and algorithms, these operations can become slow and inefficient, especially as the number of products grows into the thousands or millions.
+
+3)Discuss the types of data structures suitable for this problem.
+Ans:
+For managing inventory, data structures like ArrayList, HashMap, and TreeMap are commonly used.
+
+ArrayList is good for maintaining an ordered list of products but is slower for searching.
+
+HashMap is ideal because it allows fast access, update, and deletion using the product ID as the key.
+
+TreeMap is useful when you need to keep the products sorted by ID.

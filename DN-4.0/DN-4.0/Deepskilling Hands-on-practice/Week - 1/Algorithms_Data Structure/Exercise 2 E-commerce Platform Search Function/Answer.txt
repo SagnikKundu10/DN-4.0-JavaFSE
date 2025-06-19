@@ -1,0 +1,15 @@
+1)Discuss which algorithm is more suitable for your platform and why ?
+Ans:
+Binary search is more suitable for e-commerce platforms where performance is key, assuming product lists are kept sorted or are searchable via pre-sorted indexes e.g., databases.
+
+2)Explain Big O notation and how it helps in analyzing algorithms.
+Ans:
+Big O describes the upper bound of time or space an algorithm uses based on input size n.
+
+It helps compare algorithms' efficiency, especially with large datasets.
+
+3)Describe the best, average, and worst-case scenarios for search operations.
+Ans:
+Search Type	Best Case	Average Case	Worst Case
+Linear Search	O(1)	O(n)	O(n)
+Binary Search	O(1)	O(log n)	O(log n)

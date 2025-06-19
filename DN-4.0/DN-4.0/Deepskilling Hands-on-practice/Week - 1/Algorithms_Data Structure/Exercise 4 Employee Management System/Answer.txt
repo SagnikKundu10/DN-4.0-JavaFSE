@@ -1,0 +1,28 @@
+1)Explain how arrays are represented in memory and their advantages.
+Ans:
+Arrays are stored contiguously in memory.
+
+Each element can be accessed directly using its index → O(1) access time.
+
+Memory is allocated statically, which means fixed size.
+
+2) Time Complexity of Operations:
+Operation	Time Complexity
+Add (at end)	O(1)
+Search	        O(n)
+Traverse	O(n)
+Delete (by ID)	O(n)
+
+3)Discuss the limitations of arrays and when to use them.
+Ans:
+ Limitations of Arrays
+Fixed Size: You must define the size in advance.
+
+Inefficient Deletion: Requires shifting elements.
+
+
+>>When to Use Arrays
+When we know the maximum number of elements.
+
+When fast indexed access is more important than flexibility.
+

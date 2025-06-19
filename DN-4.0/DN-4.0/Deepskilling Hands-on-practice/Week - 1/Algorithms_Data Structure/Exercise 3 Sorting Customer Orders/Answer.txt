@@ -1,0 +1,39 @@
+1)Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+Ans:
+i. Bubble Sort
+Repeatedly swaps adjacent elements if they are in the wrong order.
+
+Time Complexity: O(n²)
+
+Best For: Small or nearly sorted data
+
+Simple but slow
+
+ii. Insertion Sort
+Builds the sorted list one item at a time by inserting elements into the correct position.
+
+Time Complexity: O(n²)
+
+Efficient for small or nearly sorted data
+
+iii. Quick Sort
+Uses divide-and-conquer by choosing a pivot and partitioning the array around it.
+
+Time Complexity: O(n log n) average, O(n²) worst
+
+Fast and widely used, but not stable
+
+iv. Merge Sort
+Also divide-and-conquer; divides the array into halves, sorts them, and merges the results.
+
+Time Complexity: O(n log n)
+
+Stable and good for large datasets
+
+2)Discuss why Quick Sort is generally preferred over Bubble Sort
+Ans:
+Much faster than Bubble Sort for large datasets.
+
+Has good cache performance and divide-and-conquer logic.
+
+Bubble Sort is easy to implement but inefficient for anything beyond very small arrays or nearly sorted data.
